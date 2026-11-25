@@ -1,4 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
+WiFi FTP Server - GitHub APK build error fix
+============================================
+
+The build log reports 11 missing string resources in activity_main.xml.
+Do NOT edit the 339-line activity_main.xml file.
+
+STEP 1
+Open this file in GitHub:
+app/src/main/res/values/strings.xml
+
+STEP 2
+Click the pencil (Edit) icon.
+
+STEP 3
+Find the last line:
+</resources>
+
+Paste the following 11 lines IMMEDIATELY ABOVE </resources>:
+
+    <string name="copy_address">Copy address</string>
+    <string name="storage_permission_required">Storage permission is required to share files</string>
+    <string name="grant_access">Grant access</string>
+    <string name="port">Port</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="shared_folder">Shared folder</string>
+    <string name="read_only">Read-only (no upload, delete or rename)</string>
+    <string name="start_server">Start server</string>
+    <string name="connect_from_windows">Connect from Windows</string>
+    <string name="battery_optimization_settings">Battery optimization settings</string>
+
+STEP 4
+Click Commit changes and commit directly to the main branch.
+
+STEP 5
+Open Actions and check the new Build Android APK run.
+
+NOTES
+- This fixes the 11 missing resource names shown in the supplied build log.
+- It does not guarantee the entire APK build succeeds; other issues may appear later.
+- These added default English strings will be used where a Persian translation with the same name is missing.
+- The existing strings.xml entries should be left untouched.
 <resources>
     <string name="app_name">WiFi FTP Server</string>
 
