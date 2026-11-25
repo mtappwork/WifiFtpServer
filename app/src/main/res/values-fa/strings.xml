@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سرور FTP وای‌فای</string>
+
+    <string name="status_stopped">سرور متوقف است</string>
+    <string name="status_starting">در حال راه‌اندازی…</string>
+    <string name="status_running">سرور در حال اجراست</string>
+    <string name="status_error">خطا: %1$s</string>
+
+    <string name="connect_to">از کامپیوتر به این آدرس وصل شوید:</string>
+    <string name="no_network">آدرسی برای وای‌فای یا هات‌اسپات پیدا نشد. به یک شبکه‌ی وای‌فای وصل شوید یا هات‌اسپات را روشن کنید و دوباره به این صفحه برگردید.</string>
+
+    <string name="hint_port">پورت</string>
+    <string name="hint_username">نام کاربری</string>
+    <string name="hint_password">رمز عبور</string>
+    <string name="hint_folder">پوشه‌ی اشتراکی</string>
+    <string name="switch_read_only">فقط خواندنی (بدون آپلود، حذف و تغییر نام)</string>
+
+    <string name="btn_start">روشن کردن سرور</string>
+    <string name="btn_stop">خاموش کردن سرور</string>
+    <string name="btn_copy">کپی آدرس</string>
+    <string name="btn_grant">دادن دسترسی</string>
+    <string name="btn_battery">تنظیمات بهینه‌سازی باتری</string>
+
+    <string name="storage_needed">برای اشتراک‌گذاری فایل‌ها، برنامه به دسترسی «همه‌ی فایل‌ها» در گوشی نیاز دارد.</string>
+    <string name="toast_copied">آدرس کپی شد</string>
+
+    <string name="err_port">پورتی بین ۱۰۲۴ تا ۶۵۵۳۵ وارد کنید</string>
+    <string name="err_user">نام کاربری را وارد کنید (بدون فاصله)</string>
+    <string name="err_password">رمز عبور حداقل ۴ کاراکتر و بدون فاصله باشد</string>
+    <string name="err_folder">این پوشه وجود ندارد</string>
+
+    <string name="help_title">اتصال از ویندوز</string>
+    <string name="help_text">۱. گوشی و کامپیوتر باید به یک وای‌فای وصل باشند (یا کامپیوتر به هات‌اسپات گوشی وصل شود).\n۲. سرور را همین‌جا روشن کنید.\n۳. در ویندوز، File Explorer را باز کنید، آدرس ftp:// را در نوار آدرس بنویسید و Enter بزنید.\n۴. نام کاربری و رمز عبور بالا را وارد کنید.\n\nبرای انتقال فایل‌های حجیم، WinSCP یا FileZilla (رایگان) پایدارتر هستند.\n\nتوجه: FTP رمزنگاری ندارد؛ فقط روی شبکه‌ای که به آن اعتماد دارید استفاده کنید.</string>
+
+    <string name="notif_channel">سرور FTP</string>
+    <string name="notif_title">سرور FTP در حال اجراست</string>
+    <string name="notif_starting">در حال راه‌اندازی…</string>
+    <string name="notif_no_network">در انتظار اتصال به شبکه</string>
+    <string name="notif_stop">توقف</string>
+</resources>

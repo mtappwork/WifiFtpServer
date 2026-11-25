@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WifiFtp" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/gold_primary</item>
+        <item name="colorOnPrimary">@color/bg_deep</item>
+        <item name="colorPrimaryContainer">@color/glass_card_bg</item>
+        <item name="colorOnPrimaryContainer">@color/gold_light</item>
+        <item name="colorSecondary">@color/gold_light</item>
+        <item name="colorOnSecondary">@color/bg_deep</item>
+        <item name="colorSurface">@color/bg_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/glass_card_bg</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/glass_card_border</item>
+        <item name="colorOutlineVariant">@color/input_border</item>
+        <item name="android:windowBackground">@color/bg_deep</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/bg_deep</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

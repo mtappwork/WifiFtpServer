@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0A0E1A</color>
+
+    <!-- Glassmorphism Gold – backgrounds -->
+    <color name="bg_deep">#0A0E1A</color>
+    <color name="bg_surface">#0F1628</color>
+    <color name="glass_card_bg">#141E38</color>
+    <color name="glass_card_border">#1E2D52</color>
+
+    <!-- Gold accent -->
+    <color name="gold_primary">#FFB300</color>
+    <color name="gold_light">#FFD54F</color>
+    <color name="gold_dark">#FF8F00</color>
+    <color name="gold_alpha20">#33FFB300</color>
+    <color name="gold_alpha10">#1AFFB300</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F0F4FF</color>
+    <color name="text_secondary">#8899BB</color>
+    <color name="text_hint">#445577</color>
+    <color name="text_gold">#FFB300</color>
+
+    <!-- Status -->
+    <color name="status_running_color">#00E676</color>
+    <color name="status_stopped_color">#FF5252</color>
+    <color name="status_starting_color">#FFB300</color>
+    <color name="status_error_color">#FF5252</color>
+
+    <!-- Input -->
+    <color name="input_bg">#0C1120</color>
+    <color name="input_border">#1E2D52</color>
+    <color name="input_border_focused">#FFB300</color>
+
+    <!-- Warning card -->
+    <color name="warning_bg">#1A1200</color>
+    <color name="warning_border">#FF8F00</color>
+</resources>

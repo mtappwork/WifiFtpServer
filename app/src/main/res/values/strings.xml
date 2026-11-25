@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi FTP Server</string>
+
+    <string name="status_stopped">Server is stopped</string>
+    <string name="status_starting">Starting…</string>
+    <string name="status_running">Server is running</string>
+    <string name="status_error">Error: %1$s</string>
+
+    <string name="connect_to">Connect from your computer to:</string>
+    <string name="no_network">No Wi-Fi or hotspot address found. Connect to a Wi-Fi network or turn on the hotspot, then return to this screen.</string>
+
+    <string name="hint_port">Port</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_folder">Shared folder</string>
+    <string name="switch_read_only">Read-only (no upload, delete or rename)</string>
+
+    <string name="btn_start">Start server</string>
+    <string name="btn_stop">Stop server</string>
+    <string name="btn_copy">Copy address</string>
+    <string name="btn_grant">Grant access</string>
+    <string name="btn_battery">Battery optimization settings</string>
+
+    <string name="storage_needed">This app needs permission to access all files on your phone so it can share them.</string>
+    <string name="toast_copied">Address copied</string>
+
+    <string name="err_port">Enter a port between 1024 and 65535</string>
+    <string name="err_user">Enter a username (no spaces)</string>
+    <string name="err_password">Password must be at least 4 characters, without spaces</string>
+    <string name="err_folder">This folder does not exist</string>
+
+    <string name="help_title">How to connect from Windows</string>
+    <string name="help_text">1. Make sure the phone and the computer are on the same Wi-Fi network (or the computer is connected to the phone\'s hotspot).\n2. Start the server here.\n3. On Windows open File Explorer, type the ftp:// address into the address bar and press Enter.\n4. Enter the username and password from the fields above.\n\nFor large transfers, WinSCP or FileZilla (both free) are more reliable.\n\nNote: FTP is not encrypted. Use it only on a network you trust.</string>
+
+    <string name="notif_channel">FTP server</string>
+    <string name="notif_title">FTP server is running</string>
+    <string name="notif_starting">Starting…</string>
+    <string name="notif_no_network">Waiting for a network connection</string>
+    <string name="notif_stop">Stop</string>
+</resources>
